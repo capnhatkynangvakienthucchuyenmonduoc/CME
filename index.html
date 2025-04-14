@@ -1,0 +1,254 @@
+<!DOCTYPE html>		
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tra cứu CME</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; object-src 'none';"> -->
+</head>
+<body>
+	<div class="titleText">
+		<img class="logo1" src="photos/bYfYOQc.png">
+		<h1 class="headerTool">CHƯƠNG TRÌNH CẬP NHẬT KỸ NĂNG VÀ KIẾN THỨC CHUYÊN MÔN DƯỢC</h1>
+		<img class="logo2" src="photos/7X7MDC9.jpeg">		
+	</div>
+	<div class="container">
+		<div class="containerReview">
+			<div class="img_left">
+				<!-- lớp 30/03/2025 -->
+				<a href="">
+				  <img id="img_300325ON" src="photos/n1.jpg" class="class_img" style="display: none;">
+				</a>
+				<a href="">
+				  <img id="img_300325ON" src="photos/n2.jpg" class="class_img" style="display: none;">
+				</a>
+				<a href="">
+				  <img id="img_300325ON" src="photos/n3.jpg" class="class_img" style="display: none;">
+				</a>
+				<a href="">
+				  <img id="img_300325ON" src="photos/z6384926405736_f26a8bc68c6f7bc2fa8ca00016d17cc.jpg" class="class_img" style="display: none;">
+				</a>
+				<!-- lớp  -->
+				<a href="">
+					<img id="img_270425ON" src="photos/PR_thang4.jpg" class="class_img" style="display: none;">
+				  </a>
+				  <a href="">
+					<img id="img_270425ON" src="photos/PR_thang4.jpg" class="class_img" style="display: none;">
+				  </a>
+				  <a href="">
+					<img id="img_270425ON" src="photos/PR_thang4.jpg" class="class_img" style="display: none;">
+				  </a>
+				  <a href="">
+					<img id="img_270425ON" src="photos/PR_thang4.jpg" class="class_img" style="display: none;">
+				  </a>
+			</div>
+		</div>
+		<div class="containerTraCu">
+			<h2 class="textTraCuuThongTinHocVien">TRA CỨU THÔNG TIN HỌC VIÊN</h2>
+			<div class="containerSearch">
+			<h4 class="inputUser">Mời quý học viên nhập CMND/CCCD để tra cứu</h4>
+			<input class="inputSearch" type="text" id="cccd" name="cccd" required>
+			<h4 class="inputChose">Mời quý học viên chọn mã lớp học</h4>
+			<select class="inputChose" id="classCode" name="classCode" onchange="updateClassImages()">
+				<option value="00000000">--Chọn lớp học--</option>
+				<option value="300325ON">Lớp 30.03.2025 Online</option>
+				<option value="270425ON">Lớp 27.04.2025 Online</option>
+				<option value="250525ON">Lớp 25.05.2025 Online</option>
+				<option value="290625ON">Lớp 29.06.2025 Online</option>
+				<option value="270725ON">Lớp 27.07.2025 Online</option>
+				<option value="240825ON">Lớp 24.08.2025 Online</option>
+				<option value="280925ON">Lớp 28.09.2025 Online</option>
+				<option value="261025ON">Lớp 26.10.2025 Online</option>
+				<option value="301125ON">Lớp 30.11.2025 Online</option>
+			</select>
+			<input class="buttonTraCu" type="button" value="Tra cứu" onclick="traCuu()">
+			<div>
+				<a href="https://forms.gle/uKzeaFdVU1d36jEZ9">
+					<input class="buttonDangKi" type="button" value="Nhấn vào đây đăng kí lớp học 27.04.2025">
+				</a>
+			</div>  
+			</div>
+			<div class="showDataSearch">
+				<div id="data"></div>
+			</div>
+		</div>
+	</div>
+	<div class="containerPlan">
+		<h3 class="titlePlan titlePlan1">KẾ HOẠCH THỜI GIAN TỔ CHỨC</h3>
+		<h3 class="titlePlan">CHƯƠNG TRÌNH ĐÀO TẠO LIÊN TỤC TRONG NĂM 2025</h3>
+		<div class="containerTablePlan">
+			<div class="PlanColum">
+				
+				<div class="plan">
+					<div class="headerPlan">
+						<!-- <span class="fireworksPaper">🎉</span> -->
+						<h5 class="ngaydangki">30.03.2025</h5>
+					</div>
+					<h6 class="monthText">Tháng</h6>
+					<h1 class="monthNumber">03</h1>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSfHJ4lj7ZKqwnaSMKNiVF-7YI38j-Rd7IBDrgfHHuyEHQa3ZQ/viewform?usp=sharing">
+						<input class="buttonDangKiNgay" type="button" value="Đăng kí ngay">
+					</a>
+				</div>
+				<div class="plan">
+					<div class="headerPlan">
+						<!-- <span class="fireworksPaper">🎉</span> -->
+						<h5 class="ngaydangki">29.06.2025</h5>
+					</div>
+					<h6 class="monthText">Tháng</h6>
+					<h1 class="monthNumber">06</h1>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSfg2wB96enXfdHRC_hu10NjVy5Ry1shEp0dhDxFoMUuqLW8fA/viewform?usp=send_form&usp=embed_facebook">
+						<input class="buttonDangKiNgay" type="button" value="Đăng kí ngay">
+					</a>
+				</div>
+				<div class="plan">
+					<div class="headerPlan">
+						<!-- <span class="fireworksPaper">🎉</span> -->
+						<h5 class="ngaydangki">28.09.2025</h5>
+					</div>
+					<h6 class="monthText">Tháng</h6>
+					<h1 class="monthNumber">09</h1>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSd2Ez8BVBUyhnWSzF5G9-6B0Eex4kENpTZrjGfzsU5UU_F3rw/viewform?usp=send_form&usp=embed_facebook">
+						<input class="buttonDangKiNgay" type="button" value="Đăng kí ngay">
+					</a>
+				</div>
+				
+			</div>
+			<div class="PlanColum">
+				<div class="plan">
+					<div class="headerPlan">
+						<span class="fireworksPaper">🎉</span>
+						<h5 class="ngaydangki">27.04.2025</h5>			
+					</div>
+					<h6 class="monthText">Tháng</h6>
+					<h1 class="monthNumber">04</h1>
+					<a href="https://forms.gle/uKzeaFdVU1d36jEZ9">
+						<input class="buttonDangKiNgay" type="button" value="Đăng kí ngay">
+					</a>
+				</div>
+				<div class="plan">
+					<div class="headerPlan">
+						<!-- <span class="fireworksPaper">🎉</span> -->
+						<h5 class="ngaydangki">27.07.2025</h5>
+					</div>
+					<h6 class="monthText">Tháng</h6>
+					<h1 class="monthNumber">07</h1>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSeS5AOZHpFiM-zG-tNME8ulvkPg77k3sS6-Cb7Ubnv61UMLtA/viewform?usp=send_form&usp=embed_facebook">
+						<input class="buttonDangKiNgay" type="button" value="Đăng kí ngay">
+					</a>
+				</div>
+				<div class="plan">
+					<div class="headerPlan">
+						<!-- <span class="fireworksPaper">🎉</span> -->
+						<h5 class="ngaydangki">26.10.2025</h5>
+					</div>
+					<h6 class="monthText">Tháng</h6>
+					<h1 class="monthNumber">10</h1>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLScCS5bGGXU8PtHye2aX3LAFsD6l0ipYWpG-QGKBKVDXTgFTPA/viewform?usp=send_form&usp=embed_facebook">
+						<input class="buttonDangKiNgay" type="button" value="Đăng kí ngay">
+					</a>
+				</div>
+				
+			</div>
+			<div class="PlanColum">
+				<div class="plan">
+					<div class="headerPlan">
+						<!-- <span class="fireworksPaper">🎉</span> -->
+						<h5 class="ngaydangki">25.05.2025</h5>
+					</div>
+					<h6 class="monthText">Tháng</h6>
+					<h1 class="monthNumber">05</h1>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLScZ3s5U-Pt4U6jx3LGzlQVgv0eGINWcwIdUDMd0KIeZ9fKuSA/viewform?usp=send_form&usp=embed_facebook">
+						<input class="buttonDangKiNgay" type="button" value="Đăng kí ngay">
+					</a>
+				</div>
+				<div class="plan">
+					<div class="headerPlan">
+						<!-- <span class="fireworksPaper">🎉</span> -->
+						<h5 class="ngaydangki">24.08.2025</h5>
+					</div>
+					<h6 class="monthText">Tháng</h6>
+					<h1 class="monthNumber">08</h1>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSc3IRUkzwn0xLeLBrfw4MArlmgjjgBJb_6krsxln_N7Py_CuQ/viewform?usp=send_form&usp=embed_facebook">
+						<input class="buttonDangKiNgay" type="button" value="Đăng kí ngay">
+					</a>
+				</div>
+				<div class="plan">
+					<div class="headerPlan">
+						<!-- <span class="fireworksPaper">🎉</span> -->
+						<h5 class="ngaydangki">30.11.2025</h5>
+					</div>
+					<h6 class="monthText">Tháng</h6>
+					<h1 class="monthNumber">11</h1>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSegLNBIoRSmqwV3XLDTI6FJYa_89f0ZqRhddUO2EFb3qIU61A/viewform?usp=send_form&usp=embed_facebook">
+						<input class="buttonDangKiNgay" type="button" value="Đăng kí ngay">
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>  
+	<div class="slogan">
+		<h2 class="titleSlogan">"DƯỢC SĨ THỜI ĐẠI SỐ CÙNG BẠN BƯỚC VÀO TƯƠNG LAI"</h2>
+	</div>
+	<div class="recomment_group">
+		<div class="recomment_group_line1">
+		<a class="group" href="https://www.facebook.com/groups/319873632150754">
+			<div>
+				<img class="logo_group" src="photos/WehkYuh.jpeg">
+				<h4 class="link_group1">Group facebook:</h4>
+				<h3 class="link_group2">Team Dược Sĩ Ngà</h3>
+			</div>
+		</a>
+		<a class="group" href="https://www.facebook.com/people/C%E1%BA%ADp-Nh%E1%BA%ADt-K%E1%BB%B9-N%C4%83ng-V%C3%A0-Ki%E1%BA%BFn-Th%E1%BB%A9c-Chuy%C3%AAn-M%C3%B4n-V%E1%BB%81-D%C6%B0%E1%BB%A3c/100057353623599/">
+			<div>
+				<img class="logo_group" src="photos/k4bEujD.jpeg">
+				<h4 class="link_group1">Fanpage facebook:</h4>
+				<h3 class="link_group2">Cập Nhật Kỹ Năng Và Kiến Thức Chuyên Môn Về Dược</h3>
+			</div>
+		</a>
+		<a class="group" href="https://www.facebook.com/BanChapHanhChiHoiDuocNhaThuocTPHCM">
+			<div>
+				<img class="logo_group" src="photos/wdEVwrm.jpeg">
+				<h4 class="link_group1">Fanpage facebook:</h4>
+				<h3 class="link_group2">Coaching 1-1 Công tác Trưởng Khoa Dược</h3>
+			</div>
+		</a>
+
+		</div>
+		<div class="recomment_group_line2">
+		<a class="group" href="https://www.facebook.com/groups/935807764402709">
+			<div>
+				<img class="logo_group" src="photos/hLtsxJe.jpeg">
+				<h4 class="link_group1">Group facebook:</h4>
+				<h3 class="link_group2">Mentor Leader</h3>
+			</div>
+		</a>
+		<a class="group" href="https://www.facebook.com/duocsidinhduongkhoahoc">
+			<div>
+				<img class="logo_group" src="photos/3Shf9kH (1).jpeg">
+				<h4 class="link_group1">Fanpage facebook:</h4>
+				<h3 class="link_group2">Dược Sĩ Dinh Dưỡng Khoa Học</h3>
+			</div>
+		</a>
+		<a class="group" href="https://www.youtube.com/channel/UCHAMKl4NKgwA8_gONp8OErg">
+			<div>
+				<img class="logo_group" src="photos/rPjrehF.jpeg">
+				<h4 class="link_group1">YouTube:</h4>
+				<h3 class="link_group2">Team Dược Sĩ Ngà</h3>
+			</div>
+		</a>
+		<a class="group" href="https://www.tiktok.com/@chaoduocsi2023">
+			<div>
+				<img class="logo_group" src="photos/syQh2gE.jpeg">
+				<h4 class="link_group1">TikTok:</h4>
+				<h3 class="link_group2">Chào Dược Sĩ</h3>
+			</div>
+		</a>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

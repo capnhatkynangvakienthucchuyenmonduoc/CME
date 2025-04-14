@@ -1,0 +1,536 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  	margin: 0;
+  	padding: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	background: url('photos/i3nIEzf.png') no-repeat center center fixed;
+  	background-size: cover;
+  }
+  
+  .headerTool {
+	color: red;
+	margin: 35px;
+	text-align: center;
+  }
+  
+  .textTraCuuThongTinHocVien
+  {
+	margin-bottom: 20px;
+	color: rgb(38,144,165);
+	justify-self: center;
+	font-size: 30px;
+
+  }
+  .container {
+	width: 90%;
+	max-width: 1200px;
+	align-items: center;
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+  }
+  .containerTraCu
+  {
+	height: fit-content;
+	width: 600px;
+	background-color: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 10px;
+	display: block;
+  }
+  .containerSearch h4 {
+	margin-bottom: 2px;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  /* .containerSearch input[type="text"],
+  .containerSearch select {
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  } */
+  .inputSearch
+  {
+	height: 35px;
+	width: calc(100% - 20px);
+	border-radius: 5px;
+	border: none;
+  }
+  .inputChose
+  {
+	height: 35px;
+	width: calc(100% - 16px);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: none;
+  }
+  .buttonDangKi {
+	background-color: #28a745;
+  }
+  
+  .buttonDangKi:hover {
+	background-color: #218838;
+  }
+  .buttonTraCu
+  {
+	margin-top: 20px;
+	height: 40px;
+	width: calc(100% - 16px);
+	margin-bottom: 5px;
+	background: #4c9eb1;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 17px;
+	font-weight:600;
+  }
+  .buttonTraCu:hover
+  {
+	background: #3a7b89;
+  }
+  .buttonDangKi
+  {
+	height:40px;
+	width:calc(100% - 16px);
+	margin-bottom: 5px;
+	border: none;
+	background-color:rgb(238, 12, 12);
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	font-weight: 800;
+  }
+  .buttonDangKi:hover
+  {
+	background: rgb(212, 2, 2);
+  }
+  #data {
+	margin-top: 0px;
+	font-size: 1.1em;
+  }
+  #data p
+  {
+	margin: 10px;
+  }
+  .containerPlan
+  {
+	height: fit-content;
+	width: 600px;
+	background-color: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+  }
+  .containerTablePlan
+  {
+	display: flex;
+	padding: 10px;
+  }
+  .titlePlan
+  {
+	color: rgb(38,144,165);
+	margin: 0;
+  }
+  .titlePlan1
+  {
+	margin-top: 15px;
+  }
+  .PlanColum
+  {
+	padding: 20px;
+  }
+  .plan
+  {
+	background-color: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	height: 145px;
+	width: 125px;
+	margin-top: 20px;
+	margin-right: 40px;
+	transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+  .plan:hover
+  {
+	transform: scale(1.03);
+  }
+  .headerPlan
+  {
+	background:rgb(38,144,165);
+	height: 25px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	align-items:center;
+	display: flex;
+	justify-content: center;
+	color:white;
+  }
+  .fireworksPaper
+  {
+	font-size: 40px;
+	position: relative;
+	margin-left: -20px;
+	margin-top: -12px;
+  }
+  .monthText
+  {
+	margin: 5px;
+  }
+  h5
+  {
+	margin: 0;
+  }
+  .monthNumber
+  {
+	font-size: 38px;
+	margin: 10px;
+	color: #4c9eb1;
+  }
+  .buttonDangKiNgay
+  {
+	height: 30px;
+	width: 115px;
+	background: #278bf7;
+	border-radius: 5px;
+	border-style:none;
+	margin: 5px;
+	color: white;
+	font-weight: 800;
+  }
+  .buttonDangKiNgay:hover
+  {
+	background: #0370e6;
+  }
+  .titleSlogan
+  {
+	color: red;
+  }
+  .recomment_group{
+	margin-top: 20px;
+	display: flex;
+	font-size: 10px;
+	
+  }
+  .recomment_group_line1{
+	display: flex;
+	justify-content:center;
+  }
+  .recomment_group_line2{
+	display: flex;
+	justify-content:center;
+  }
+  .logo_group{
+	height: 80px;
+	border-radius: 5px;
+  }
+  .group{
+	height: 140px;
+	width: 150px;
+	background-color: rgba(0, 0, 0, 0.1);
+	margin-left: 20px;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 10px;
+  }
+  .link_group1,.link_group2
+  {
+	margin: 0px;
+	margin-top: 5px;
+  }
+  .link_group2
+  {
+	color: rgb(38,144,165);
+  }
+  .group
+  {
+	height: 140px;
+	border-radius:5px;
+	transition: transform 0.2s ease, border-color 0.2s ease;
+	text-decoration: none;
+	color: black;
+	margin-bottom: 50px;
+}
+ .group:hover
+ {
+	transform: scale(1.03);
+	border: 1px solid #007bff;
+ }
+ .logo1,.logo2
+ {
+	height: 150px;
+	border-radius: 5px;
+ }
+ .titleText
+ {
+	display: flex;
+	margin: 50px;
+	text-align: center;
+ }
+ .img_left
+ {
+	display: block;
+	margin: 0;
+	padding: 0;
+ }
+ .class_img
+ {
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+ }
+ .class_img:hover
+ {
+	transform: scale(1.03);
+	border: 1px solid #007bff;
+ }
+ .containerReview
+ {
+	display: flex;
+	margin-right: 10px;
+	margin-bottom: auto;
+ }
+ @media only screen and (min-width: 1024px)
+ {
+	.container {
+	  display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+	  gap: 20px;
+	}
+	.headerTool {
+	  font-size: 24px;
+	  text-align: left;
+	}
+	.buttonTraCu, .buttonDangKi {
+	  font-size: 18px;
+	  padding: 12px;
+	}
+  }
+  
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.container {
+	  grid-template-columns: repeat(2, 1fr);
+	  gap: 15px;
+	}
+	.headerTool {
+	  font-size: 20px;
+	  text-align: center;
+	}
+	.buttonTraCu, .buttonDangKi {
+	  font-size: 16px;
+	  padding: 10px;
+	}
+  }
+  @media only screen and (max-width: 767px)
+  {
+	.logo1,.logo2
+	{
+	   height: 60px;
+	   border-radius: 5px;
+	}
+	.headerTool {
+		color: red;
+		margin: 5px;
+		text-align: center;
+		font-size: 13px;
+	}
+	.titleText
+	{
+	   display: flex;
+	   margin:5px;
+	   text-align: center;
+	   margin-top: 20px;
+	}
+	.textTraCuuThongTinHocVien
+	{
+		margin-top: 10px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.inputUser
+	{
+		font-size: 12px;
+	}
+	.inputSearch
+	{
+		width: 98%;
+	}
+	.inputChose
+	{
+		width: 100%;
+	}
+	.buttonTraCu, .buttonDangKi
+	{
+	  width: 100%;
+	  font-size: 10px;
+	  padding: 0px;
+	}
+	.containerTraCu
+	{
+	  width: 90%;
+	  padding: 10px;
+	  margin: 0;
+	}
+	#data p
+	{
+		margin: 5px;
+	}
+	.class_img
+	{
+		height: 150px;
+		margin: 0;
+		margin-bottom: 10px;
+		padding: 0px;
+	}
+	.containerReview
+	{
+		margin: 0;
+		padding: 0;
+		margin-bottom: auto;
+	}
+	.container
+	{
+		display: flex; /* Kích hoạt Flexbox */
+    	flex-direction:column-reverse; /* Sắp xếp các phần tử theo chiều dọc */
+    	margin: 0;
+    	padding: 0;
+    	width: 100%;
+	}
+	.containerPlan
+  	{
+		height: fit-content;
+		width: 95%;
+		background-color: rgba(255, 255, 255, 0.1);
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+		padding: 0px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+  	}
+  	.containerTablePlan
+  	{
+		display: flex;
+		padding: 0px;
+		width: 100%;
+  	}
+	.titlePlan
+	{
+		font-size: 14px;
+	}
+	.titlePlan1
+	{
+		margin-top: 15px;
+	}
+	.PlanColum
+  	{
+		display: block;
+		margin: 0px;
+		padding: 0;
+		width: 30%;
+ 	}
+	.plan
+	{
+		background-color: rgba(255, 255, 255, 0.1);
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+		height: 100px;
+		width: 90px;
+		margin-left: 30%;
+  	}
+	.headerPlan
+	{
+		font-size: 13px;
+	}
+	.fireworksPaper
+  {
+	font-size: 30px;
+	position: relative;
+	margin-left: -18px;
+	margin-top: -8px;
+  }
+	.monthText
+	{
+		margin: 1px;
+	}
+	.monthNumber
+	{
+		font-size: 23px;
+		margin: 2px;
+	}
+	.buttonDangKiNgay
+  	{
+		height: 25%;
+		width: 93%;
+		margin: 1px;
+		font-weight: 600;
+		font-size: 9px;
+	}
+	.titleSlogan
+	{
+	  font-size: 11px;
+	  margin-top: 20px;
+	}
+	.recomment_group
+	{
+        display: block;
+		margin-right: 8px;
+    }
+    .recomment_group_line1
+	{
+        display: flex;
+        margin-top: 5px;
+    }
+    .recomment_group_line2
+	{
+        display: flex;
+        margin-bottom: 10px;
+    }
+	.logo_group
+	{
+		height: 40px;
+		border-radius: 4px;
+	}
+	.group
+	{
+		height: 100px;
+		width: 35%;
+		background-color: rgba(0, 0, 0, 0.1);
+		margin-left: 10px;
+		border-radius: 5px;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+		margin-bottom: 20px;
+		text-align: center;
+		padding:5px;
+	  }
+	.link_group1,.link_group2
+	{
+		margin: 0px;
+		margin-top: 5px;
+		font-size: 8px;
+	}
+	.link_group2
+	{
+		font-size: 9px;
+	}
+	.de_muc
+	{
+		font-size: 12px;
+	}
+	p
+	{
+		font-size: 11px;
+	}
+  }
+  
