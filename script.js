@@ -1,5 +1,5 @@
 // const url = 'https://docs.google.com/spreadsheets/d/1kBRlTY1cjK3NXPsIVqd4uepnKt-SiD17LHUoNjIO2TQ/gviz/tq?tqx=out:json';
-const url = 'https://docs.google.com/spreadsheets/d/1kBRlTY1cjK3NXPsIVqd4uepnKt-SiD17LHUoNjIO2TQ/gviz/tq?tqx=out:json';
+const url = 'https://docs.google.com/spreadsheets/d/180GC88hRn2uSFLeJwsz8EdshpK1DJx8xPJL0VaEJK_A/gviz/tq?tqx=out:json';
 function traCuu() {
   // Lấy giá trị từ các trường nhập
   const cccd = document.getElementById('cccd').value.trim();
