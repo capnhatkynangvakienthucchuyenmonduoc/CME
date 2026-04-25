@@ -277,7 +277,7 @@ body {
  }
  .logo1,.logo2
  {
-	height: 100px;
+	height: 80px;
 	border-radius: 5px;
  }
  .titleText
@@ -345,7 +345,7 @@ body {
   {
 	.logo1,.logo2
 	{
-	   height: 60px;
+	   height: 50px;
 	   border-radius: 5px;
 	}
 	.headerTool {

@@ -90,7 +90,7 @@ function traCuu() {
             <br>
             <p class="de_muc_luu_y"><strong>Lưu ý:</strong></p>
             <p>1. Thông tin mang (*) là thông tin được in trên chứng chỉ.</p>
-            <p>2. Quý học viên vui lòng kiểm tra toàn bộ thông tin bên trên, mọi câu hỏi Quý học viên gửi mail về địa chỉ: <a href="mailto:cmehoiduochoc@quangtrungco.edu.vn">cmehoiduochoc@quangtrungco.edu.vn</a></p> 
+            <p>2. Quý học viên vui lòng kiểm tra toàn bộ thông tin bên trên, mọi câu hỏi Quý học viên gửi mail về địa chỉ: <a href="mailto:cpe.cme@gmail.com">cpe.cme@gmail.com</a></p> 
             <p>Trân trọng,</p>
             <p><strong>BAN TỔ CHỨC LỚP HỌC.</strong></p>
           `;
