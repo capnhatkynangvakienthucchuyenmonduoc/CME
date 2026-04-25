@@ -10,8 +10,14 @@ body {
   }
   
   .headerTool {
-	color: red;
+	color: rgb(38,144,165);
 	margin: 35px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+  }
+    .headerTool1 {
+	color: rgb(38,144,165);
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -276,7 +282,7 @@ body {
  }
  .titleText
  {
-	display: flex;
+	/* display: flex; */
 	margin: 50px;
 	text-align: center;
  }
