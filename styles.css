@@ -317,7 +317,7 @@ body {
 	  gap: 20px;
 	}
 	.headerTool {
-	  font-size: 20px;
+	  font-size: 20px ;
 	  text-align: left;
 	}
 	.buttonTraCu, .buttonDangKi {
@@ -333,7 +333,7 @@ body {
 	  gap: 15px;
 	}
 	.headerTool {
-	  font-size: 18px;
+	  font-size: 18px; 
 	  text-align: center;
 	}
 	.buttonTraCu, .buttonDangKi {
@@ -349,14 +349,13 @@ body {
 	   border-radius: 5px;
 	}
 	.headerTool {
-		color: red;
 		margin: 5px;
 		text-align: center;
-		font-size: 13px;
+		font-size: 21px !important;
 	}
 	.titleText
 	{
-	   display: flex;
+	   /* display: flex; */
 	   margin:5px;
 	   text-align: center;
 	   margin-top: 20px;
@@ -365,7 +364,7 @@ body {
 	{
 		margin-top: 10px;
 		text-align: center;
-		font-size: 14px;
+		font-size: 17px !important;
 	}
 	.inputUser
 	{
@@ -377,7 +376,7 @@ body {
 	}
 	.inputChose
 	{
-		width: 100%;
+		width: 98%;
 	}
 	.buttonTraCu, .buttonDangKi
 	{
