@@ -277,7 +277,7 @@ body {
  }
  .logo1,.logo2
  {
-	height: 150px;
+	height: 100px;
 	border-radius: 5px;
  }
  .titleText
@@ -317,7 +317,7 @@ body {
 	  gap: 20px;
 	}
 	.headerTool {
-	  font-size: 24px;
+	  font-size: 20px;
 	  text-align: left;
 	}
 	.buttonTraCu, .buttonDangKi {
@@ -333,7 +333,7 @@ body {
 	  gap: 15px;
 	}
 	.headerTool {
-	  font-size: 20px;
+	  font-size: 18px;
 	  text-align: center;
 	}
 	.buttonTraCu, .buttonDangKi {
